@@ -1,6 +1,6 @@
 var path = require("path");
 var webpack = require("webpack");
-<<<<<<< HEAD
+
 var mode = require("yargs").argv.mode;
 
 // plugin 插件
@@ -23,9 +23,9 @@ if(mode === "production"){
 }
 
 
-=======
+
 var librayName = "sparrow"
->>>>>>> 6ce8409a6ec931e47b2ef2df6878021b27abddf6
+
 var config = {
   entry: path.resolve(__dirname, "./src/index.js"),
   output: {
@@ -37,7 +37,7 @@ var config = {
       library: librayName,
       libraryTarget: "umd",
       umdNameDefine: true
-<<<<<<< HEAD
+
   },
   // 调试工具
   "devtool":"cheap-source-map",
@@ -45,9 +45,7 @@ var config = {
   resolve:{
     extension:["", ".js",, ".css", ".json"],
     root:path.resolve("./src")
-=======
 
->>>>>>> 6ce8409a6ec931e47b2ef2df6878021b27abddf6
   },
   module:{
     loaders:[
@@ -55,7 +53,7 @@ var config = {
         test: /\.js$/,
         loader:'babel',
         exclude:/node_modules/
-<<<<<<< HEAD
+
       },
       {
         test: /\.js$/,
@@ -65,14 +63,6 @@ var config = {
     ]
   },
   plugins:plugins
-=======
-      }
-    ]
-  },
-  plugins:{
-
-  }
->>>>>>> 6ce8409a6ec931e47b2ef2df6878021b27abddf6
 };
 
 module.exports = config;
