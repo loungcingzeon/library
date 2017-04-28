@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 01. 如何开发一个属于自己的前端类库
 
 ## 课时1 1. 目标介绍
@@ -37,6 +38,12 @@
 ## 课时5 5. 支持umd模块
   - 创建 index.html
   - 配置webpack.comfig.js 文件
+=======
+# library
+## 课时5 5. 支持umd模块
+  -创建 index.html
+## 配置webpack.comfig.js 文件
+>>>>>>> 6ce8409a6ec931e47b2ef2df6878021b27abddf6
     ```
         var path = require("path");
         var webpack = require("webpack");
@@ -70,7 +77,11 @@
 
         module.exports = config;
     ```
+<<<<<<< HEAD
    - 打包成umd
+=======
+## 打包成umd
+>>>>>>> 6ce8409a6ec931e47b2ef2df6878021b27abddf6
     ```
       sparrow
       function sparrow() {
@@ -85,6 +96,7 @@
       a.name
       "sparrow"
     ```
+<<<<<<< HEAD
 
 ## 课时6 6. 支持开发调试
 
@@ -316,3 +328,5 @@
 ## 课时11 11. 发布到npm和github上
   -npm官网：https://npmjs.com
   -将包发布到npm
+=======
+>>>>>>> 6ce8409a6ec931e47b2ef2df6878021b27abddf6
