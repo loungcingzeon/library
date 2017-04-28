@@ -332,6 +332,9 @@
             如：node_modules
                 bower_components
 
+      - 设置npm镜像资源路径：
+        $ npm config set registry https://registry.npmjs.org
+
       - npm 发布之前
         $ npm adduser             //  然后就出现以下提示
           Username:loungcingzeon  //  输入用户名，回车
