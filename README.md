@@ -332,7 +332,7 @@
             如：node_modules
                 bower_components
 
-      - 设置npm镜像资源路径：
+      - 设置npm镜像资源路径-一定要指向官网：
         $ npm config set registry https://registry.npmjs.org
 
       - npm 发布之前
@@ -345,3 +345,5 @@
 
       - 开始执行命令发布
         $ npm publish             // 回车
+
+      - 提示：如果你遇到发布403报错，那就要把 package.json 配置中的 "name": "library-alan", 改成别不一样的，如："name": "library-loung",
