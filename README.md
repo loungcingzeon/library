@@ -324,5 +324,5 @@
 
 
 ## 课时11 11. 发布到npm和github上
-  -npm官网：https://npmjs.com
-  -将包发布到npm
+  - npm官网：https://npmjs.com
+  - 将包发布到npm
