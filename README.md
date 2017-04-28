@@ -324,5 +324,21 @@
 
 
 ## 课时11 11. 发布到npm和github上
-  - npm官网：https://npmjs.com
-  - 将包发布到npm
+      - npm官网：https://npmjs.com
+      - 将包发布到npm
+      - 创建 .npmignore
+        01. 主要是设置一下 文件不想被提交到npm服务器上去就可以在里设置过滤的, 就不会发布不出去
+
+            如：node_modules
+                bower_components
+
+      - npm 发布之前
+        $ npm adduser             //  然后就出现以下提示
+          Username:loungcingzeon  //  输入用户名，回车
+          Password:*************  //  输入密码， 回车
+          Email:(this IS Public)  loungcingzeon@sina.com //  输入邮箱地址， 回车
+
+         回车后，返回的结果：Logged in as loungcingzeon on https://registry.npm.taobao.org/.
+
+      - 开始执行命令发布
+        $ npm publish             // 回车

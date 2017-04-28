@@ -4,15 +4,13 @@
   "description": "library",
   "main": "index.js",
   "scripts": {
-<<<<<<< HEAD
     "dev": "webpack --progress --colors --watch --mode=development",
     "build": "webpack --mode=production",
     "lint": "eslint ./src",
     "lint:fix": "eslint ./src --fix",
-    "test": "mocha --require babel-register -w --colors ./test/*.spec.js"
-=======
+    "test": "mocha --require babel-register -w --colors ./test/*.spec.js",
     "dev": "webpack --progress --colors --watch"
->>>>>>> 6ce8409a6ec931e47b2ef2df6878021b27abddf6
+
   },
   "repository": {
     "type": "git",
@@ -33,7 +31,6 @@
     "babel-loader": "^7.0.0",
     "babel-plugin-add-module-exports": "^0.2.1",
     "babel-preset-es2015": "^6.24.1",
-<<<<<<< HEAD
     "babel-register": "^6.24.1",
     "chai": "^3.5.0",
     "eslint": "^3.19.0",
@@ -42,10 +39,8 @@
     "mocha": "^3.3.0",
     "webpack": "^1.13.2",
     "webpack-dev-server": "^1.16.1",
-    "yargs": "^7.1.0"
-=======
+    "yargs": "^7.1.0",
     "webpack": "^1.13.2",
     "webpack-dev-server": "^1.16.1"
->>>>>>> 6ce8409a6ec931e47b2ef2df6878021b27abddf6
   }
 }
